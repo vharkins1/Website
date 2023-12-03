@@ -1,10 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Webpage</title>
+    <title>Cool Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Webpage</h1>
-    <p>This is a simple HTML webpage.</p>
+    <header>
+        <h1>Welcome to My Cool Webpage</h1>
+    </header>
+    
+    <div>
+        <p>This is a cool HTML webpage with some styling and functionality.</p>
+        <button onclick="showAlert()">Click me!</button>
+    </div>
+
+    <script>
+        function showAlert() {
+            alert('Hello! This is a cool functionality added to the webpage.');
+        }
+    </script>
 </body>
 </html>
